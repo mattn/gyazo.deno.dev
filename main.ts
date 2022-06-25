@@ -1,7 +1,12 @@
-import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
+import { opine } from "https://deno.land/x/opine@2.2.0/mod.ts";
 
-function handler(_req: Request): Response {
-  return new Response("Hello, World");
-}
+const app = opine();
 
-serve(handler);
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
+
+app.listen(
+  3000,
+  () => console.log("server has started on http://localhost:3000 🚀"),
+);
