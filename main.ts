@@ -26,7 +26,7 @@ h1,h2,h3 {
 </style>
 <body>
 	<h1>Cloudflare Gyazo</h1>
-	2022 (C) <a href="http://mattn.kaoriya.net/">mattn</a>, code is <a href="https://github.com/mattn/cloudflare-gyazo">here</a>
+	2022 (C) <a href="http://mattn.kaoriya.net/">mattn</a>, code is <a href="https://github.com/mattn/gyazo.deno.dev">here</a>
 </body>
 `;
 
